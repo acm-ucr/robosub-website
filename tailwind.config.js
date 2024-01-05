@@ -3,19 +3,19 @@ module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/data/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
         robosub: {
-          red: "#FF3100",
-          orange: "#FF7738",
-          yellow: "#F19228",
+          yellow: "#FFB400",
+          blue: "#2E6CC1",
+          "light-blue": "#E2EEFF",
+          "light-gray": "#E7E7E7",
+          "dark-gray": "#494949",
         },
-      },
-      fontFamily: {
-        jost: "var(--jost-font)",
       },
     },
   },
