@@ -7,7 +7,17 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        robosub: {
+          yellow: "#FFB400",
+          blue: "#2E6CC1",
+          "light-blue": "#E2EEFF",
+          "light-gray": "#E7E7E7",
+          "dark-gray": "#494949",
+        },
+      },
+    },
   },
   plugins: [],
 };
