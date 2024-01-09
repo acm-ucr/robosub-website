@@ -1,7 +1,9 @@
+import HomeTitle from "@/components/home/HomeTitle";
+
 const Home = () => {
   return (
     <div className="">
-      <p>Home</p>
+      <HomeTitle />
     </div>
   );
 };

@@ -6,27 +6,23 @@ import { SlArrowDown } from "react-icons/sl";
 
 const HomeTitle = () => {
   return (
-    <div className="w-full">
+    <div className="w-full relative -translate-y-5">
+      <Image src={image1} alt="Background image 1" className="w-screen" />
       <Image
-        src={image1}
-        alt="Background image 1"
-        className="object-cover h-[100vh] scale-100 w-full"
+        src={image2}
+        alt="Background image 2"
+        className="w-screen top-1/2 absolute z-10"
       />
-      <div className="mt-[30%] absolute top-4 flex flex-col z-20">
-        <Image
-          src={image2}
-          alt="Background image 2"
-          className="w-full object-contain"
-        />
-      </div>
-      <div className="w-full pr-20 mt-[29%] absolute top-20 flex flex-col items-end z-20">
+      <div className="w-full right-[7%] bottom-[30%] absolute flex flex-col items-end z-10 text-xl">
         <p className="italic font-thin">Presenting</p>
         <p className="italic font-bold">Laviathan 2024</p>
         <SlArrowDown className="m-3 mr-8 text-2xl" />
       </div>
-      <div className="w-full pl-20 mt-[19%] absolute top-0 flex flex-col items-start z-20">
-        <p className="text-6xl font-bold m-1 ml-14 text-robosub-yellow">UCR</p>
-        <p className="text-7xl font-extrabold m-1 ml-14">ROBOSUB</p>
+      <div className="text-[80px] w-full left-[15%] absolute top-[28%] z-10">
+        <p className="drop-shadow-lg shadow-black font-bold text-robosub-yellow translate-y-6 relative">
+          UCR
+        </p>
+        <p className="font-bold">ROBOSUB</p>
       </div>
     </div>
   );
