@@ -11,9 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="font-sans">
-      <body className=" bg-robosub-black text-white">
+      <body className=" bg-robosub-black text-white relative w-screen overflow-x-hidden">
         <NavBar />
-        <div className="mt-3 w-full flex flex-col min-h-screen overflow-hidden items-center mb-20 font-sans">
+        <div className="flex w-full flex-col min-h-screen items-center mb-20 font-sans">
           {children}
         </div>
         <Footer />
