@@ -4,7 +4,7 @@ const JoinIcon = ({ icon, link, text }) => {
     <Link
       href={link}
       className={
-        " text-7xl flex flex-col text-white items-center aspect-square font-bold transition-all ease-in-out hover:text-robosub-yellow"
+        " text-7xl flex flex-col text-white items-center font-bold transition-all ease-in-out hover:text-robosub-yellow"
       }
       target="_blank"
     >
