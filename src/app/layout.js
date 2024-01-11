@@ -13,9 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="font-sans">
       <body className=" bg-robosub-black text-white relative w-screen overflow-x-hidden">
         <NavBar />
-        <div className="flex w-full flex-col min-h-screen items-center mb-20 font-sans">
-          {children}
-        </div>
+        {children}
         <Footer />
       </body>
     </html>

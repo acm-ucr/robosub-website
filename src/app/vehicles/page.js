@@ -1,6 +1,6 @@
 const Vehicles = () => {
   return (
-    <div className="">
+    <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
       <p>Vehicles</p>
     </div>
   );
