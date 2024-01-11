@@ -1,8 +1,7 @@
 import HomeTitle from "@/components/home/HomeTitle";
-
 const Home = () => {
   return (
-    <div className="">
+    <div className="mb-[30%]">
       <HomeTitle />
     </div>
   );
