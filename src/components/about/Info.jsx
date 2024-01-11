@@ -5,7 +5,7 @@ const bigNumberFormat = "text-[90px] font-bold leading-none";
 const Info = () => {
   return (
     <div className=" w-1/2">
-      <div className="flex flex-col items-center mb-1">
+      <div className="flex flex-col items-center mb-11">
         <p class="text-robosub-yellow font-bold text-base">Year founded</p>
         <p class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-robosub-dark-gray text-[90px] leading-none">
           2015
