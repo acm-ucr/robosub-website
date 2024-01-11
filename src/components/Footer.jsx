@@ -8,11 +8,7 @@ const Footer = () => {
   return (
     <div>
       <div className="w-full relative">
-        <Image
-          alt="img1"
-          src={img1}
-          className="w-full"
-        />
+        <Image alt="img1" src={img1} className="w-full" />
       </div>
       <div className="w-full bg-white h-96">
         <div className="absolute flex flex-col-2 ml-14 mt-40 ">
