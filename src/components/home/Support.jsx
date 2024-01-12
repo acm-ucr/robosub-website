@@ -1,7 +1,7 @@
 import Button from "../Button";
 const Support = () => {
   return (
-    <div className=" flex flex-col items-center w-full ">
+    <div className=" flex flex-col items-center w-full my-20">
       <p className=" text-3xl mb-2  text-white font-semibold">
         SUPPORT UCR ROBOSUB!
       </p>
