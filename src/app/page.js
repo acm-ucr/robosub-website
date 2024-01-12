@@ -8,7 +8,7 @@ const Home = () => {
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
       <HomeTitle />
       <Subtitle title="Join the Experience" text="Open to all UCR students!" />
-      <Image src={imagebar} />
+      <Image src={imagebar} alt="image bar" />
       <Subtitle title="Links" text="Get Involved" />
       <Support />
     </div>
