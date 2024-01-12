@@ -61,7 +61,6 @@ const InfoBox = () => {
           <Button link="/vehicles" text="LEARN MORE" />
         </div>
       </div>
-      <p>InfoBox</p>
     </div>
   );
 };
