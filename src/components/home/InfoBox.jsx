@@ -6,14 +6,14 @@ import { AiOutlineDoubleRight } from "react-icons/ai";
 
 const InfoBox = () => {
   return (
-    <div className="flex flex-col items-center w-[100%]">
+    <div className="flex flex-col items-center w-[80%]">
       <div className="flex justify-between mb-[7%]">
         <div className="flex flex-col w-[55%]">
           <div className="flex items-center mb-[12%]">
-            <AiOutlineDoubleRight />
+            <AiOutlineDoubleRight className=" text-robosub-blue text-4xl" />
             <p className="font-bold text-[35px]">Our Project</p>
           </div>
-          <div className="mb-[15%]">
+          <div className="mb-[10%]">
             <p className="font-sans font-light text-[23px]">
               We are University of California, Riverside&apos;s
             </p>
@@ -41,10 +41,10 @@ const InfoBox = () => {
 
         <div className="flex flex-col items-end w-[55%]">
           <div className="flex items-center mb-[12%]">
-            <AiOutlineDoubleRight />
+            <AiOutlineDoubleRight className=" text-robosub-blue text-4xl" />
             <p className="font-bold text-[35px]">Our Vehicle</p>
           </div>
-          <div className="flex flex-col items-end mb-[15%]">
+          <div className="flex flex-col items-end mb-[10%]">
             <p className="font-sans font-light text-[23px]">
               Leviathan features five degrees of motion, and is
             </p>
