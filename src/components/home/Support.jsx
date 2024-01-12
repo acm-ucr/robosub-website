@@ -3,10 +3,8 @@ const Support = () => {
   return (
     <div className=" flex flex-col items-center w-full ">
       <p className=" text-3xl mb-2  text-white font-semibold">
-        {" "}
         SUPPORT UCR ROBOSUB!
       </p>
-
       <p className="text-lg">
         WE RELY ON YOUR HELP TO KEEP OUR TEAM RUNNING AND FREE FOR
       </p>
