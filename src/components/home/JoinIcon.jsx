@@ -4,12 +4,12 @@ const JoinIcon = ({ icon, link, text }) => {
     <Link
       href={link}
       className={
-        " text-7xl flex flex-col text-white items-center font-bold transition-all ease-in-out hover:text-robosub-yellow"
+        " text-6xl flex flex-col text-white items-center font-bold duration-300 hover:text-robosub-yellow"
       }
       target="_blank"
     >
       {icon}
-      <p className={"font-sans !text-2xl mt-2"}>{text}</p>
+      <p className={"font-sans !text-lg mt-2"}>{text}</p>
     </Link>
   );
 };
