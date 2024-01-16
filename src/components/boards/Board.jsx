@@ -1,35 +1,20 @@
 import Image from "next/image";
-import img1 from "../../public/cat.png";
 
 const Board = ({ image, name, role }) => {
   return (
-    <div className="font-sans font-bold text-base md:text-lg px-3 my-2">
-      <div className="flex w-full justify-between my-10">
+    <div className="font-sans w-48 flex flex-col items-center">
+      <div
+        className="bg-gradient-to-br from-robosub-blue via-robosub-blue to-robosub-light-blue 
+                      rounded-full p-1.5 aspect-square w-full"
+      >
         <Image
-          className="
-          border-4
-          rounded-full  
-          my-4
-          object-cover
-          aspect-square"
-          class="bg-gradient-to-r from-robosub-blue to-robosub-light-blue 
-        rounded-full p-1 max-w-xl"
-          src={img1}
+          className="rounded-full object-cover aspect-square w-full"
+          src={image}
           alt="picture of member"
         />
       </div>
-      <p
-        className="text-robosub-yellow bg-robosub-dark-gray text-center
-      p-2 whitespace-nowrap"
-      >
-        {role}
-      </p>
-      <p
-        className="text-robosub-light-gray bg-robosub-dark-gray 
-      text-center w-[100%] p-2"
-      >
-        {name}
-      </p>
+      <p className="text-robosub-yellow text-2xl font-bold"> {name} </p>
+      <p className="text-robosub-light-gray font-semibold text-sm"> {role} </p>
     </div>
   );
 };
