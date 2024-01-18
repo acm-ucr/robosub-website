@@ -5,7 +5,7 @@ import { FaMoneyBillWave } from "react-icons/fa";
 
 export const team = [
   {
-    icon: <FaGear />,
+    icon: <FaGear style={{ fill: "url(#gray-gradient)" }} />,
     title: "Mechanical-Systems Engineering",
     text: "The Mechanical team creates the physical structure of the submarine, working with top-down design patterns to create the submarine from conception to completion. Subgroups for components give leadership and small-group experience for members. We use Solidworks to create our models and manufacturing drawings.",
     list: [
@@ -16,7 +16,7 @@ export const team = [
     ],
   },
   {
-    icon: <FaMicrochip />,
+    icon: <FaMicrochip style={{ fill: "url(#gray-gradient)" }} />,
     title: "Electrical",
     text: "The Electrical team creates and organizes the electrical subsystems and sensors within the submarine, designing circuitry, creating PCBs, and networking components. We use Altium Designer to create our PCB diagrams.",
     list: [
@@ -27,7 +27,7 @@ export const team = [
     ],
   },
   {
-    icon: <MdMonitor />,
+    icon: <MdMonitor style={{ fill: "url(#gray-gradient)" }} />,
     title: "Software",
     text: "The Software team gives the submarine life, creating the artificial intelligence, computer vision, and software interface modules that allow the robot to see, sense, and move. We use Robot Operating System (ROS), Python, and C/C++ for our controls.",
     list: [
@@ -38,7 +38,7 @@ export const team = [
     ],
   },
   {
-    icon: <FaMoneyBillWave />,
+    icon: <FaMoneyBillWave style={{ fill: "url(#gray-gradient)" }} />,
     title: "Business & Sponsorships Lead-Systems Engineering",
     text: "The Business & Sponsorships team manages the project from a high level: contacting companies for sponsorships, maintaining social media accounts, managing project organization and water tests, and assisting the other teams with outreach and contact.",
     list: [
