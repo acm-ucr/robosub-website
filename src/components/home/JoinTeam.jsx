@@ -3,7 +3,7 @@ import Button from "../Button";
 
 const JoinTeam = ({ icon, title, text }) => {
   return (
-    <div className="bg-robosub-black w-[400px] items-center flex">
+    <div className="bg-robosub-black w-[400px] items-center flex m-5 ">
       <div className="font-sans text-[84px] pb-2 aspect-square w-[45%] rounded-full flex justify-center items-center bg-gradient-to-br to-black from-robosub-dark-gray">
         {icon}
       </div>
