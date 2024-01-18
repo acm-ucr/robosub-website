@@ -5,14 +5,11 @@ import Image from "next/image";
 import JoinIcons from "@/components/home/JoinIcons";
 import imagebar from "../public/imageBar.png";
 import InfoBox from "@/components/home/InfoBox";
-import JoinTeam from "@/components/home/JoinTeam";
-import { GrApple } from "react-icons/gr";
 import JoinTeams from "@/components/home/JoinTeams";
 
 const Home = () => {
   return (
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
-      <JoinTeam title="test" text="test" icon={<GrApple />} />
       <JoinTeams />
       <HomeTitle />
       <InfoBox />

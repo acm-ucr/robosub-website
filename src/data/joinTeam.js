@@ -1,23 +1,26 @@
-import { FaRegNoteSticky } from "react-icons/fa6";
+import { TbChartHistogram } from "react-icons/tb";
+import { BsMotherboard } from "react-icons/bs";
+import { TbHeartRateMonitor } from "react-icons/tb";
+import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 
 export const joinTeam = [
   {
-    icon: <FaRegNoteSticky />,
+    icon: <TbChartHistogram />,
     title: "Business & Analytics",
     text: "Network with potential sponsors, recruit new members, and build the foundation for the team.",
   },
   {
-    icon: <FaRegNoteSticky />,
+    icon: <BsMotherboard />,
     title: "Electrical",
     text: "Network with potential sponsors, recruit new members, and build the foundation for the team.",
   },
   {
-    icon: <FaRegNoteSticky />,
+    icon: <TbHeartRateMonitor />,
     title: "Software",
     text: "Contribute to the development of our software stack and make impactful decisions.",
   },
   {
-    icon: <FaRegNoteSticky />,
+    icon: <HiOutlineWrenchScrewdriver />,
     title: "Business & Analytics",
     text: "Network with potential sponsors, recruit new members, and build the foundation for the team.",
   },
