@@ -1,6 +1,8 @@
 const format =
-  "rounded-xl border-robosub-yellow border-[1px] flex flex-col items-center pt-2 pb-4 w-[30%] border-opacity-70 text-transparent bg-clip-text bg-gradient-to-r from-white to-robosub-dark-gray";
-const bigNumberFormat = "text-[80px] font-bold leading-none";
+  "flex flex-col items-center pt-1 pb-4 w-full text-transparent bg-clip-text bg-gradient-to-r from-white to-robosub-dark-gray";
+const bigNumberFormat = "text-8xl font-bold leading-none";
+const borderformat =
+  "rounded-xl  bg-gradient-to-b from-robosub-orange via-robosub-light-yellow to-robosub-orange p-[0.5px] w-[30%]";
 
 const Info = () => {
   return (
@@ -13,19 +15,29 @@ const Info = () => {
       </div>
 
       <div className="flex justify-between">
-        <div className={format}>
-          <p class={bigNumberFormat}>4</p>
-          <p class="font-bold">Vehicles Designed</p>
+        <div className={borderformat}>
+          <div className=" bg-robosub-black w-full rounded-xl">
+            <div className={format}>
+              <p class={bigNumberFormat}>4</p>
+              <p class="font-bold">Vehicles Designed</p>
+            </div>
+          </div>
         </div>
-
-        <div className={format}>
-          <p class={bigNumberFormat}>6</p>
-          <p class="font-bold">Different Majors</p>
+        <div className={borderformat}>
+          <div className=" bg-robosub-black w-full rounded-xl">
+            <div className={format}>
+              <p class={bigNumberFormat}>6</p>
+              <p class="font-bold">Different Majors</p>
+            </div>
+          </div>
         </div>
-
-        <div className={format}>
-          <p class={bigNumberFormat}>4</p>
-          <p class="font-bold text-center">Competitions Involved</p>
+        <div className={borderformat}>
+          <div className=" bg-robosub-black w-full rounded-xl">
+            <div className={format}>
+              <p class={bigNumberFormat}>4</p>
+              <p class="font-bold text-center">Competitions Involved</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

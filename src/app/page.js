@@ -10,10 +10,10 @@ import JoinTeams from "@/components/home/JoinTeams";
 const Home = () => {
   return (
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
-      <JoinTeams />
       <HomeTitle />
       <InfoBox />
       <Subtitle title="Join the Experience" text="Open to all UCR students!" />
+      <JoinTeams />
       <Image src={imagebar} alt="image bar" />
       <Subtitle title="Links" text="Get Involved" />
       <JoinIcons />

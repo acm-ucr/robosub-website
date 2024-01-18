@@ -11,6 +11,8 @@ module.exports = {
       colors: {
         robosub: {
           yellow: "#FFB400",
+          "light-yellow": "#FFD43B",
+          orange: "#B57E2C",
           blue: "#2E6CC1",
           "light-blue": "#E2EEFF",
           "light-gray": "#E7E7E7",

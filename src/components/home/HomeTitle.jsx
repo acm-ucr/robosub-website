@@ -18,7 +18,7 @@ const HomeTitle = () => {
         <p className="italic font-bold">Laviathan 2024</p>
         <SlArrowDown className="m-3 mr-8 text-2xl" />
       </div>
-      <div className="text-[80px] w-full left-[15%] absolute top-[28%]">
+      <div className="text-[80px] left-[15%] absolute top-[28%]">
         <p className="drop-shadow-lg shadow-black font-bold text-robosub-yellow translate-y-6 relative">
           UCR
         </p>

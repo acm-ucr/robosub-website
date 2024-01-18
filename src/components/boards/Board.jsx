@@ -1,7 +1,22 @@
-const Board = () => {
+import Image from "next/image";
+
+const Board = ({ image, name, role }) => {
   return (
-    <div className="">
-      <p>Board</p>
+    <div className="font-sans w-44 flex flex-col items-center">
+      <div
+        className="bg-gradient-to-br from-robosub-blue via-robosub-blue to-robosub-light-blue 
+                      rounded-full p-1 aspect-square w-full"
+      >
+        <Image
+          className="rounded-full object-cover aspect-square w-full"
+          src={image}
+          alt="picture of member"
+        />
+      </div>
+      <p className="text-robosub-yellow text-2xl font-bold"> {name} </p>
+      <p className="text-robosub-light-gray font-semibold text-sm mb-[30%]">
+        {role}
+      </p>
     </div>
   );
 };
