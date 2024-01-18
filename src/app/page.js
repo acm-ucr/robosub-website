@@ -5,6 +5,7 @@ import Image from "next/image";
 import JoinIcons from "@/components/home/JoinIcons";
 import imagebar from "../public/imageBar.png";
 import InfoBox from "@/components/home/InfoBox";
+import JoinTeams from "@/components/home/JoinTeams";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <HomeTitle />
       <InfoBox />
       <Subtitle title="Join the Experience" text="Open to all UCR students!" />
+      <JoinTeams />
       <Image src={imagebar} alt="image bar" />
       <Subtitle title="Links" text="Get Involved" />
       <JoinIcons />
