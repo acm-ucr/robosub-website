@@ -1,5 +1,6 @@
 import Info from "@/components/about/Info";
-
+import { team } from "@/data/team";
+import Team from "@/components/about/Team";
 const About = () => {
   return (
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
@@ -20,6 +21,17 @@ const About = () => {
         </p>
       </div>
       <Info />
+      <div className="flex flex-col items-center space-y-14 mt-[100px]">
+        {team.map((item, index) => (
+          <Team
+            key={index}
+            text={item.text}
+            title={item.title}
+            icon={item.icon}
+            list={item.list}
+          />
+        ))}
+      </div>
     </div>
   );
 };
