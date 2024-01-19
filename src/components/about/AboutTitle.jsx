@@ -10,9 +10,9 @@ const AboutTitle = () => {
       <Image
         src={image2}
         alt="Background image 2"
-        className="w-screen top-1/2 absolute"
+        className="w-screen top-[60%] absolute"
       />
-      <div className="w-full left-[17%] bottom-[40%] absolute flex flex-col items-start text-xl">
+      <div className="w-full left-[15%] bottom-[30%] absolute flex flex-col items-start text-xl">
         <p className="text-4xl font-bold mb-5">What is RoboSub?</p>
         <p className={paragraphGen}>
           UCR RoboSub is one of IEEE&apos;s large-scale
