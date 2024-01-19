@@ -1,10 +1,12 @@
 import Info from "@/components/about/Info";
 import { team } from "@/data/team";
 import Team from "@/components/about/Team";
+import AboutTitle from "@/components/about/AboutTitle";
 const About = () => {
   return (
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
-      <div className="w-1/2 text-sm my-10">
+      <AboutTitle />
+      <div className="w-1/2 text-sm my-[7%]">
         <p className="mb-5">
           We are a diverse team of students from University of California,
           Riverside dedicated to exploring robotics of all applications. Drawing
