@@ -2,9 +2,17 @@ import Subtitle from "@/components/Subtitle";
 import sponsors from "../../public/sponsors.png";
 import Image from "next/image";
 import Link from "next/link";
+import SponsorTitle from "@/components/sponsors/SponsorTitle";
+import sponsor from "../../public/sponsor.png";
+
 const Sponsors = () => {
   return (
     <div className="mb-[25%] w-full flex flex-col items-center min-h-screen">
+      <SponsorTitle
+        _image={sponsor}
+        title="Supports Us"
+        text="Keep Our Aquatic Legacy Flowing!"
+      />
       <div className="w-1/2 my-10 text-center">
         <p>
           Through financial funding support, the Leviathan team will be able to

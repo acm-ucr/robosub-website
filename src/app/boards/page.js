@@ -1,11 +1,14 @@
 import Subtitle from "@/components/Subtitle";
 import Board from "@/components/boards/Board";
 import img1 from "../../public/cat.png";
+import PageTitle from "@/components/PageTitle";
+import image1 from "../../public/sponsor.png";
 
 const Boards = () => {
   return (
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
       <p>Boards</p>
+      <PageTitle _image={image1} title="Board" text="Meet the Team" />
       <Subtitle title="Current Team" text="Meet Our Executive Board" />
       <div className="w-[70%] grid grid-cols-4">
         <Board image={img1} name="Yi-Shiun Hung" role="Project Lead" />
