@@ -2,7 +2,7 @@ const format =
   "flex flex-col items-center pt-1 pb-4 w-full text-transparent bg-clip-text bg-gradient-to-r from-white to-robosub-dark-gray";
 const bigNumberFormat = "text-8xl font-bold leading-none";
 const borderformat =
-  "rounded-xl  bg-gradient-to-b from-robosub-orange via-robosub-light-yellow to-robosub-orange p-[0.5px] w-[30%]";
+  "rounded-xl  bg-gradient-to-b from-robosub-orange via-robosub-light-yellow to-robosub-orange p-[1px] w-[30%]";
 
 const Info = () => {
   return (

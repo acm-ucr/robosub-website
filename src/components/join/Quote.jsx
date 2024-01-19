@@ -1,9 +1,10 @@
 const Quote = ({ quote, person }) => {
   return (
-    <div className=" border-robosub-yellow bg-clip-text bg-gradient-to-tr from-robosub-yellow to-robosub-dark-gray rounded-xl items-center pt-2 pb-4 w-1/3 duration-200 border-[1px] border-opacity-70 font-light py-1 px-7 ">
-      <p></p>
-      <p className="font-thin"> {quote} </p>
-      <p className="pt-1 font-bold text-sm"> {person} </p>
+    <div className="m-3 rounded-xl bg-gradient-to-b from-robosub-orange via-robosub-light-yellow to-robosub-orange p-[1px] h-fit">
+      <div className="w-full py-2 px-5 bg-robosub-black rounded-xl">
+        <p className="font-thin"> &quot;{quote}&quot;</p>
+        <p className="py-2 font-bold text-sm"> {person} </p>
+      </div>
     </div>
   );
 };

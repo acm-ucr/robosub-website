@@ -1,9 +1,10 @@
 import Button from "@/components/Button";
 import Subtitle from "@/components/Subtitle";
-
+import Questions from "@/components/join/Questions";
+import Quotes from "@/components/join/Quotes";
 const Join = () => {
   return (
-    <div className="w-full flex flex-col items-center min-h-screen">
+    <div className="w-full flex flex-col items-center min-h-screen mb-[20%]">
       <p>Join</p>
       <p className="text-robosub-light-blue text-3xl font-semibold text-center mt-10">
         We are Currently Recuiting ALL
@@ -19,10 +20,12 @@ const Join = () => {
         title="Frequently Asked Questions"
         text="Get to Know More About US"
       />
+      <Questions />
       <Subtitle
         title="Quote Wall"
         text="Her About Our Team From a Few Members Themselves"
       />
+      <Quotes />
     </div>
   );
 };
