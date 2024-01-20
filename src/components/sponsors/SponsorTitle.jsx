@@ -1,15 +1,11 @@
 import Image from "next/image";
 import image2 from "../../public/blue-wave.svg";
-
-const PageTitle = (props) => {
+import image1 from "../../public/sponsor.png";
+const PageTitle = () => {
   return (
-    <div className="">
-      <div className="w-full relative -translate-y-5 -z-10">
-        <Image
-          src={props._image}
-          alt="Background image 1"
-          className="w-screen"
-        />
+    <div>
+      <div className="w-full relative -z-10 -mb-14">
+        <Image src={image1} alt="Background image 1" className="w-screen" />
         <Image
           src={image2}
           alt="Background image 2"
@@ -17,10 +13,12 @@ const PageTitle = (props) => {
         />
       </div>
       <div className="flex flex-col left-[9%] absolute top-[9%] ">
-        <p className="text-[60px] font-sans font-semibold  text-robosub-yellow -mb-7">
-          {props.title}
+        <p className="text-4xl font-sans font-semibold text-robosub-yellow">
+          Support Us
         </p>
-        <p className="text-[75px] italic font-thin">{props.text}</p>
+        <p className="text-4xl italic font-thin">
+          Keep Our Aquatic Legacy Flowing!
+        </p>
       </div>
     </div>
   );

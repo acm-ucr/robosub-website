@@ -5,9 +5,9 @@ import { FaMoneyBillWave } from "react-icons/fa";
 
 export const team = [
   {
-    icon: <FaGear style={{ fill: "url(#gray-gradient)" }} />,
-    title: "Mechanical-Systems Engineering",
-    text: "The Mechanical team creates the physical structure of the submarine, working with top-down design patterns to create the submarine from conception to completion. Subgroups for components give leadership and small-group experience for members. We use Solidworks to create our models and manufacturing drawings.",
+    icon: <FaMicrochip style={{ fill: "url(#gray-gradient)" }} />,
+    title: "Electrical",
+    text: "The Electrical team creates and organizes the electrical subsystems and sensors within the submarine, designing circuitry, creating PCBs, and networking components. We use Altium Designer to create our PCB diagrams.",
     list: [
       "PCB Board assembly and design",
       "Circuitry",
@@ -16,9 +16,9 @@ export const team = [
     ],
   },
   {
-    icon: <FaMicrochip style={{ fill: "url(#gray-gradient)" }} />,
-    title: "Electrical",
-    text: "The Electrical team creates and organizes the electrical subsystems and sensors within the submarine, designing circuitry, creating PCBs, and networking components. We use Altium Designer to create our PCB diagrams.",
+    icon: <FaGear style={{ fill: "url(#gray-gradient)" }} />,
+    title: "Mechanical-Systems Engineering",
+    text: "The Mechanical team creates the physical structure of the submarine, working with top-down design patterns to create the submarine from conception to completion. Subgroups for components give leadership and small-group experience for members. We use Solidworks to create our models and manufacturing drawings.",
     list: [
       "SolidWorks",
       "ANSYS/FEA",

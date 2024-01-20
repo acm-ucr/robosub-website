@@ -14,9 +14,7 @@ const Board = ({ image, name, role }) => {
         />
       </div>
       <p className="text-robosub-yellow text-2xl font-bold"> {name} </p>
-      <p className="text-robosub-light-gray font-semibold text-sm mb-[30%]">
-        {role}
-      </p>
+      <p className="text-robosub-light-gray font-semibold text-sm">{role}</p>
     </div>
   );
 };

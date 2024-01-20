@@ -5,14 +5,14 @@ import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 
 export const joinTeam = [
   {
-    icon: <TbChartHistogram />,
-    title: "Business & Analytics",
-    text: "Network with potential sponsors, recruit new members, and build the foundation for the team.",
-  },
-  {
     icon: <BsMotherboard />,
     title: "Electrical",
     text: "Network with potential sponsors, recruit new members, and build the foundation for the team.",
+  },
+  {
+    icon: <HiOutlineWrenchScrewdriver />,
+    title: "Mechanical",
+    text: "Design, fabricate, and test the vehicle, including frames, subsystems, and other robotic components.",
   },
   {
     icon: <TbHeartRateMonitor />,
@@ -20,7 +20,7 @@ export const joinTeam = [
     text: "Contribute to the development of our software stack and make impactful decisions.",
   },
   {
-    icon: <HiOutlineWrenchScrewdriver />,
+    icon: <TbChartHistogram />,
     title: "Business & Analytics",
     text: "Network with potential sponsors, recruit new members, and build the foundation for the team.",
   },
