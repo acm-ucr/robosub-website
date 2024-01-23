@@ -1,7 +1,7 @@
 const Team = ({ icon, title, text, list }) => {
   return (
-    <div className="w-7/12 flex flex-col justify-items-start font-sans text-robosub-light-gray space-y-4">
-      <div className=" text-6xl font-bold bg-clip-text">
+    <div className="w-9/12 md:w-7/12 flex flex-col justify-items-start font-sans text-robosub-light-gray space-y-2 md:space-y-4">
+      <div className="text-5xl md:text-6xl font-bold bg-clip-text">
         <svg width="0" height="0">
           <linearGradient
             id="gray-gradient"
@@ -16,8 +16,10 @@ const Team = ({ icon, title, text, list }) => {
         </svg>
         {icon}
       </div>
-      <p className="text-3xl text-robosub-yellow font-semibold">{title}</p>
-      <p className=" leading-5 font-light">{text}</p>
+      <p className="text-2xl md:text-3xl text-robosub-yellow font-semibold">
+        {title}
+      </p>
+      <p className="leading-5 font-light">{text}</p>
       <div className="font-semibold tracking-tight">
         {list.map((item, index) => (
           <div className="flex items-center text-sm" key={index}>
