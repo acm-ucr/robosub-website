@@ -6,10 +6,10 @@ const borderformat =
 
 const Info = () => {
   return (
-    <div className=" md:w-1/2 w-[89%]">
+    <div className=" md:w-1/2 w-[90%]">
       <div className="flex flex-col items-center mb-9 md:mb-11">
         <p class="text-robosub-yellow font-bold text-base">Year founded</p>
-        <p class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-robosub-dark-gray text-[80px] leading-none">
+        <p class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-robosub-dark-gray text-6xl md:text-[80px] leading-none">
           2015
         </p>
       </div>

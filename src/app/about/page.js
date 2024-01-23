@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
       <AboutTitle />
-      <div className="w-1/2 text-sm my-[7%]">
+      <div className=" w-3/4 md:w-1/2 text-[8px] md:text-sm md:my-[7%] my-[15%]">
         <p className="mb-5">
           We are a diverse team of students from University of California,
           Riverside dedicated to exploring robotics of all applications. Drawing
