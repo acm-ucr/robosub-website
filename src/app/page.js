@@ -6,7 +6,8 @@ import JoinIcons from "@/components/home/JoinIcons";
 import imagebar from "../public/imageBar.png";
 import InfoBox from "@/components/home/InfoBox";
 import JoinTeams from "@/components/home/JoinTeams";
-
+import Questions from "@/components/join/Questions";
+import Quotes from "@/components/join/Quotes";
 const Home = () => {
   return (
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
@@ -18,6 +19,8 @@ const Home = () => {
       <Subtitle title="Links" text="Get Involved" />
       <JoinIcons />
       <Support />
+      <Questions />
+      <Quotes />
     </div>
   );
 };
