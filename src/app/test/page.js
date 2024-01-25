@@ -1,9 +1,9 @@
-const Subteams = () => {
+const test = () => {
   return (
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
-      <p>Subteams</p>
+      <p>test</p>
     </div>
   );
 };
 
-export default Subteams;
+export default test;

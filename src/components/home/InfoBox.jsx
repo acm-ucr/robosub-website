@@ -3,18 +3,18 @@ import image1 from "../../public/project.png";
 import image2 from "../../public/vehicle1.png";
 import Button from "../../components/Button";
 import { AiOutlineDoubleRight } from "react-icons/ai";
-const format = "font-sans font-light text-[23px] md:text-[13px]";
+const format = "font-sans font-light md:text-[23px] text-[13px]";
 
 const InfoBox = () => {
   return (
     <div className="flex flex-col items-center w-[80%]">
-      <div className="flex justify-between mb-[7%] md:flex-col">
-        <div className="flex flex-col w-[55%] md:w-full mb-6">
-          <div className="flex items-center mb-[12%] md:mb-6">
-            <AiOutlineDoubleRight className=" text-robosub-blue text-4xl md:text-2xl" />
-            <p className="font-bold text-[35px] md:text-xl ">Our Project</p>
+      <div className="flex flex-col md:justify-between mb-[7%]">
+        <div className="flex w-full mb-6 md:w-[55%] flex-col ">
+          <div className="flex items-center mb-6 md:mb-[12%]">
+            <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl" />
+            <p className="font-bold text-xl md:text-[35px]">Our Project</p>
           </div>
-          <div className="mb-[10%] md:mb-6">
+          <div className="mb-6 md:mb-[10%]">
             <p className={format}>
               We are University of California, Riverside&apos;s
             </p>
@@ -26,22 +26,22 @@ const InfoBox = () => {
           </div>
           <Button link="/about" text="LEARN MORE" />
         </div>
-        <div className="object-contain w-[45%] md:w-full">
+        <div className="object-contain w-full md:w-[45%]">
           <Image src={image1} alt="Project Image" />
         </div>
       </div>
 
-      <div className="flex justify-between md:flex-col">
-        <div className="object-contain w-[45%] md:w-full mb-6">
+      <div className="flex flex-col md:justify-between">
+        <div className="object-contain w-full mb-6 md:w-[45%]">
           <Image src={image2} alt="Vehicle Image" />
         </div>
 
-        <div className="flex flex-col items-end w-[55%] md:w-full">
-          <div className="flex items-center mb-[12%] md:mb-6">
-            <AiOutlineDoubleRight className=" text-robosub-blue text-4xl md:text-2xl" />
-            <p className="font-bold text-[35px] md:text-xl">Our Vehicle</p>
+        <div className="flex flex-col items-end w-full md:w-[55%]">
+          <div className="flex items-center mb-6 md:mb-[12%]">
+            <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl" />
+            <p className="font-bold text-xl md:text-[35px]">Our Vehicle</p>
           </div>
-          <div className="flex flex-col items-end mb-[10%] md:mb-6">
+          <div className="flex flex-col items-end mb-6 md:mb-[10%]">
             <p className={format}>
               Leviathan features five degrees of motion, and is
             </p>

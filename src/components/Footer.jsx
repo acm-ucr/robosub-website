@@ -14,7 +14,7 @@ const Footer = () => {
       />
       <Link
         href="/"
-        className="flex w-1/4 items-center hover:opacity-60 duration-300"
+        className="flex w-[28%] items-center hover:opacity-60 duration-300"
       >
         <Image alt="logo" src={logo} className=" object-contain" />
         <div className="text-robosub-dark-gray text-3xl ml-2">
