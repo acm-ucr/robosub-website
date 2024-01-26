@@ -2,7 +2,7 @@ import { quotes, quotes2 } from "@/data/quotes";
 import Quote from "./Quote";
 const Quotes = () => {
   return (
-    <div className="grid md:flex-col grid-cols-1 mt-[3%] w-2/3 md:max-w-full">
+    <div className="grid lg:grid-cols-2 mt-[3%] w-2/3 md:max-w-full">
       <div>
         {quotes.map((item, index) => (
           <Quote

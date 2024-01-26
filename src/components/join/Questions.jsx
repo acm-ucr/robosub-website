@@ -2,11 +2,11 @@ import React from "react";
 import { questions } from "@/data/questions";
 const Questions = () => {
   return (
-    <div className="mt-3 w-3/4 md:flex">
+    <div className="mt-3 w-3/4">
       {questions.map((item, index) => (
         <div key={index} className="flex ml-[7%] justify-between pb-[4%]">
           <div
-            className=" border-l-robosub-blue w-1/4 md:w-3/4 p-4 border-l-8 pl-[4%] pr-[30%] font-bold"
+            className=" border-l-robosub-blue lg:w-1/4 border-l-8 pl-[4%] pr-[8%] font-bold "
             key={index}
           >
             {item.question}
