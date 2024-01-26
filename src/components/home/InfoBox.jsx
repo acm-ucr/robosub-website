@@ -7,9 +7,9 @@ const format = "font-sans font-light md:text-[23px] text-[13px]";
 
 const InfoBox = () => {
   return (
-    <div className="flex flex-col items-center w-[80%]">
-      <div className="flex flex-col md:justify-between mb-[7%]">
-        <div className="flex w-full mb-6 md:w-[55%] flex-col ">
+    <div className="flex flex-col items-center w-[70%]">
+      <div className="flex flex-col md:flex-row md:justify-between mb-[7%]">
+        <div className="flex w-full mb-6 md:mb-0 md:w-[55%] flex-col ">
           <div className="flex items-center mb-6 md:mb-[12%]">
             <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl" />
             <p className="font-bold text-xl md:text-[35px]">Our Project</p>
@@ -31,7 +31,7 @@ const InfoBox = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:justify-between">
+      <div className="flex flex-col md:flex-row md:justify-between">
         <div className="object-contain w-full mb-6 md:w-[45%]">
           <Image src={image2} alt="Vehicle Image" />
         </div>
