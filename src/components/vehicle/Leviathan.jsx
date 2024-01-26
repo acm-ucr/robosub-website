@@ -1,7 +1,7 @@
 const Leviathan = () => {
   return (
-    <div className=" w-1/2 flex flex-col items-center font-sans text-sm">
-      <p className=" font-bold my-5 !text-6xl text-robosub-yellow ">
+    <div className=" md:w-1/2 flex flex-col items-center font-sans md:text-sm text-[10px] px-11 md:px-0 ">
+      <p className=" font-bold md:my-5 my-2 md:!text-6xl text-3xl text-robosub-yellow  ">
         LEVIATHAN
       </p>
 
