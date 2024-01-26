@@ -36,8 +36,11 @@ const NavBar = () => {
           </Link>
         ))}
         <Link
-          href="https://discord.com/invite/gjFMdGwqUw"
-          className={` bg-robosub-blue rounded-lg hover:opacity-60 duration-300 py-1 px-4 md:px-6`}
+          href="/join"
+          className={` bg-robosub-blue opacity-80 rounded-lg hover:opacity-60 duration-300 py-1 px-4 md:px-6`}
+          onClick={() => {
+            setSelected("");
+          }}
         >
           JOIN
         </Link>
