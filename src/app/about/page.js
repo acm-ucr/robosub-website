@@ -7,7 +7,7 @@ const About = () => {
     <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
       <AboutTitle />
       <div className=" w-4/5 md:w-3/5 text-[8px] md:text-sm md:my-[7%] my-[15%]">
-        <p className="mb-5">
+        <p className="mb-5 2xl:text-xl">
           We are a diverse team of students from University of California,
           Riverside dedicated to exploring robotics of all applications. Drawing
           from across all STEM disciplines, we focus on advancing the art of
@@ -15,7 +15,7 @@ const About = () => {
           real project.
         </p>
 
-        <p>
+        <p className="2xl:text-xl">
           We are creating a sustainable foundation for future years, and
           expanding the project to become the premier project of UCR&apos;s
           Bourns College of Engineering. Our team is twenty-five strong,
