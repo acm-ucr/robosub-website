@@ -9,10 +9,10 @@ const Info = () => {
   return (
     <div className="md:w-1/2 w-[80%]">
       <div className="flex flex-col items-center mb-9 md:mb-11">
-        <p class="text-robosub-yellow font-bold text-sm md:text-base 2xl:text-2xl">
+        <p className="text-robosub-yellow font-bold text-sm md:text-base 2xl:text-2xl">
           Year founded
         </p>
-        <p class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-robosub-dark-gray text-5xl 2xl:text-9xl md:text-[80px] leading-none">
+        <p className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-robosub-dark-gray text-5xl 2xl:text-9xl md:text-[80px] leading-none">
           2015
         </p>
       </div>
@@ -21,8 +21,8 @@ const Info = () => {
         <div className={borderformat}>
           <div className=" bg-robosub-black w-full rounded-xl">
             <div className={format}>
-              <p class={bigNumberFormat}>4</p>
-              <p class="font-bold text-center text-xs md:text-base 2xl:text-2xl">
+              <p className={bigNumberFormat}>4</p>
+              <p className="font-bold text-center text-xs md:text-base 2xl:text-2xl">
                 Vehicles Designed
               </p>
             </div>
@@ -31,8 +31,8 @@ const Info = () => {
         <div className={borderformat}>
           <div className=" bg-robosub-black w-full rounded-xl">
             <div className={format}>
-              <p class={bigNumberFormat}>6</p>
-              <p class="font-bold text-center text-xs md:text-base w-11/12 md:w-full 2xl:text-2xl">
+              <p className={bigNumberFormat}>6</p>
+              <p className="font-bold text-center text-xs md:text-base w-11/12 md:w-full 2xl:text-2xl">
                 Different Majors
               </p>
             </div>
@@ -41,8 +41,8 @@ const Info = () => {
         <div className={borderformat}>
           <div className=" bg-robosub-black w-full rounded-xl">
             <div className={format}>
-              <p class={bigNumberFormat}>4</p>
-              <p class="font-bold text-center text-xs md:text-base 2xl:text-2xl">
+              <p className={bigNumberFormat}>4</p>
+              <p className="font-bold text-center text-xs md:text-base 2xl:text-2xl">
                 Competitions Involved
               </p>
             </div>
