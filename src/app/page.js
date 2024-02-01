@@ -9,7 +9,7 @@ import JoinTeams from "@/components/home/JoinTeams";
 
 const Home = () => {
   return (
-    <div className="mb-[30%] w-full flex flex-col items-center min-h-screen">
+    <div className="md:mb-[30%] mb-[40%] w-full flex flex-col items-center min-h-screen">
       <HomeTitle />
       <InfoBox />
       <Subtitle title="Join the Experience" text="Open to all UCR students!" />

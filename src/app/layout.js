@@ -1,6 +1,6 @@
 import "./globals.css";
 import NavBar from "@/components/NavBar";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "UCR RoboSub",
@@ -10,11 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="font-sans">
-      <body className=" bg-robosub-black text-white relative w-screen overflow-x-hidden">
+      <body className=" bg-robosub-black text-white w-screen overflow-x-hidden">
         <NavBar />
         {children}
+        <Footer />
       </body>
-      {/* <Footer /> */}
     </html>
   );
 }

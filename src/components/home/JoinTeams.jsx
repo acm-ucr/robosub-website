@@ -3,7 +3,7 @@ import JoinTeam from "./JoinTeam";
 
 const JoinTeams = () => {
   return (
-    <div className="grid grid-cols-2 mb-[15%]">
+    <div className="grid grid-cols-1 md:grid-cols-2 mb-[15%]">
       {joinTeam.map((item, index) => (
         <JoinTeam
           key={index}
