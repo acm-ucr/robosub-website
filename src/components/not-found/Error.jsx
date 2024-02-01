@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import image1 from '../../public/submarine.png';
-import Button from '../../components/Button';
+import Image from "next/image";
+import image1 from "../../public/submarine.png";
+import Button from "../../components/Button";
 
 const Error = () => {
   return (
