@@ -1,5 +1,5 @@
-import logo from "../public/team-logo.png";
-import img1 from "../public/footer-blue-wave.svg";
+import logo from "@/public/team-logo.webp";
+import img1 from "@/public/footer-blue-wave.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { links } from "../data/footerLinks";
@@ -19,7 +19,7 @@ const Footer = () => {
         <Image
           alt="logo"
           src={logo}
-          className="md:scale-100 scale-150 mr-2 md:mr-0 object-contain"
+          className=" md:w-auto w-14 mr-2 md:mr-0 object-contain"
         />
         <div className="text-robosub-dark-gray text-3xl ml-2">
           <p className="font-medium">ROBOSUB</p>

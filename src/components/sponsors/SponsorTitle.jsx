@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image2 from "../../public/blue-wave.svg";
-import image1 from "../../public/sponsor.png";
+import image2 from "@/public/blue-wave.svg";
+import image1 from "@/public/sponsor.webp";
 const PageTitle = () => {
   return (
     <div>

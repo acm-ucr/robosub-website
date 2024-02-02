@@ -1,7 +1,7 @@
 import Button from "@/components/Button";
 import Subtitle from "@/components/Subtitle";
 import PageTitle from "@/components/PageTitle";
-import join from "../../public/join.png";
+import join from "@/public/join.webp";
 import Questions from "@/components/join/Questions";
 import Quotes from "@/components/join/Quotes";
 

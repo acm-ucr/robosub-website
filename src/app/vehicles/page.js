@@ -1,5 +1,5 @@
 import PageTitle from "@/components/PageTitle";
-import vehicle from "../../public/vehicle.png";
+import vehicle from "@/public/vehicle.webp";
 import Leviathan from "@/components/vehicle/Leviathan";
 
 const Vehicles = () => {
