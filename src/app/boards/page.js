@@ -1,7 +1,7 @@
 import Subtitle from "@/components/Subtitle";
 import Board from "@/components/boards/Board";
 import PageTitle from "@/components/PageTitle";
-import board from "@/public/board.png";
+import board from "@/public/board.webp";
 import Button from "@/components/Button";
 import { boards } from "@/data/boards";
 import { alumni } from "@/data/alumni";

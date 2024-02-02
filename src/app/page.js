@@ -3,7 +3,7 @@ import Support from "@/components/home/Support";
 import Subtitle from "@/components/Subtitle";
 import Image from "next/image";
 import JoinIcons from "@/components/home/JoinIcons";
-import imagebar from "@/public/imageBar.png";
+import imagebar from "@/public/imageBar.webp";
 import InfoBox from "@/components/home/InfoBox";
 import JoinTeams from "@/components/home/JoinTeams";
 

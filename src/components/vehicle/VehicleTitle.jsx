@@ -1,6 +1,6 @@
 import Image from "next/image";
 import image2 from "@/public/blue-wave.svg";
-import vehicle from "@/public/vehicle.png";
+import vehicle from "@/public/vehicle.webp";
 
 const VehicleTitle = () => {
   return (
