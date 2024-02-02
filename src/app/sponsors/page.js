@@ -6,9 +6,9 @@ import SponsorTitle from "@/components/sponsors/SponsorTitle";
 
 const Sponsors = () => {
   return (
-    <div className="mb-[25%] w-full flex flex-col items-center min-h-screen">
+    <div className="mb-[25%] w-full flex flex-col items-center md:min-h-screen">
       <SponsorTitle />
-      <div className="w-1/2 mb-10 text-center">
+      <div className="md:w-1/2 mb-10 text-center">
         <p>
           Through financial funding support, the Leviathan team will be able to
           build an autonomous submarine to compete in the annual Naval
