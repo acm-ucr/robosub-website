@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "@/public/home.png";
+import image1 from "@/public/home.webp";
 import image2 from "@/public/blue-wave.svg";
 import { SlArrowDown } from "react-icons/sl";
 

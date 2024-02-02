@@ -1,4 +1,4 @@
-import logo from "@/public/team-logo.png";
+import logo from "@/public/team-logo.webp";
 import img1 from "@/public/footer-blue-wave.svg";
 import Link from "next/link";
 import Image from "next/image";

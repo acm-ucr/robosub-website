@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image1 from "@/public/about.png";
+import image1 from "@/public/about.webp";
 import image2 from "@/public/yellow-wave.svg";
 
 const AboutTitle = () => {

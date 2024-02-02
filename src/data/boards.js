@@ -1,9 +1,9 @@
-import JoseDeleon from "@/public/Jose_DeLeon.png";
-import TejasShah from "@/public/Tejas_Shah.png";
-import ZijunWang from "@/public/Zijun_Wang.png";
-import EdgarVergara from "@/public/Edgar_Vergara.png";
-import ClementPorter from "@/public/Clement_Porter.png";
-import ChristyanGarcia from "@/public/Christyan_Garcia.png";
+import JoseDeleon from "@/public/Jose_DeLeon.webp";
+import TejasShah from "@/public/Tejas_Shah.webp";
+import ZijunWang from "@/public/Zijun_Wang.webp";
+import EdgarVergara from "@/public/Edgar_Vergara.webp";
+import ClementPorter from "@/public/Clement_Porter.webp";
+import ChristyanGarcia from "@/public/Christyan_Garcia.webp";
 
 export const boards = [
   {
