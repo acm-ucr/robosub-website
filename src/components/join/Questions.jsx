@@ -11,7 +11,10 @@ const Questions = () => {
           >
             {item.question}
           </div>
-          <div className="w-2/3 mr-[7%] text-sm" key={index}>
+          <div
+            className="w-2/3 md:mr-[7%] mr-[1%] md:text-sm text-xs"
+            key={index}
+          >
             {item.answer}
           </div>
         </div>
