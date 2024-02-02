@@ -1,5 +1,5 @@
 import Subtitle from "@/components/Subtitle";
-import sponsors from "../../public/sponsors.png";
+import sponsors from "@/public/sponsors.png";
 import Image from "next/image";
 import Link from "next/link";
 import SponsorTitle from "@/components/sponsors/SponsorTitle";
