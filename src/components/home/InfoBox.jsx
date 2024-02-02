@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image1 from "../../public/project.png";
-import image2 from "../../public/vehicle1.png";
+import image1 from "@/public/project.png";
+import image2 from "@/public/vehicle1.png";
 import Button from "../../components/Button";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 const format = "font-sans font-light md:text-[23px] text-[13px]";

@@ -1,7 +1,7 @@
-import DionNgo from "../public/Dion_Ngo.png";
-import JoshuaShabun from "../public/Joshua_Shabun.png";
-import ZinalPatel from "../public/Zinal_Patel.png";
-import RichardTobing from "../public/Richard_Tobing.png";
+import DionNgo from "@/public/Dion_Ngo.png";
+import JoshuaShabun from "@/public/Joshua_Shabun.png";
+import ZinalPatel from "@/public/Zinal_Patel.png";
+import RichardTobing from "@/public/Richard_Tobing.png";
 
 export const alumni = [
   {
