@@ -8,16 +8,28 @@ const Sponsors = () => {
   return (
     <div className="mb-[25%] w-full flex flex-col items-center min-h-screen">
       <SponsorTitle />
-      <div className="w-1/2 mb-10 text-center">
+      <div className="2xl:w-1/2 w-[75%] mb-10 text-center text-2xl font-light">
         <p>
           Through financial funding support, the Leviathan team will be able to
-          build an autonomous submarine to compete in the annual Naval
-          Information Warfare Center’s RoboSub competition at no cost to
-          students. This entirely student-run project will provide members with
-          vital real-world engineering skills to prepare them for post-graduate
+          build an graduate
+        </p>
+        autonomous submarine to compete in the annual Naval Information Warfare
+        Center’s
+        <p>
+          RoboSub competition at no cost to students. This entirely student-run
+          project will
+        </p>
+        <p>
+          provide members with vital real-world engineering skills to prepare
+          them for post-
+        </p>
+        <p>
           success. Most importantly, through sponsorships, we will be able to
-          maintain our tradition as the first underwater-vehicle project at UCR
-          for the future generations.
+          maintain
+        </p>
+        <p>
+          our tradition as the first underwater-vehicle project at UCR for the
+          future generations.
         </p>
         <p className="mt-20 mb-5">
           Check out our current supporters and sponsors below!
@@ -30,7 +42,7 @@ const Sponsors = () => {
       </div>
       <Link
         href="robosubucr@gmail.com"
-        className="text-robosub-yellow underline mt-2"
+        className="text-robosub-yellow underline mt-2 text-2xl"
       >
         robosubucr@gmail.com
       </Link>
@@ -38,7 +50,7 @@ const Sponsors = () => {
         title="Sponsors"
         text="A HUGE Thanks to Our Current Sponsors!"
       />
-      <Image className="w-2/3" src={sponsors} alt="Sponsors" />
+      <Image className="2xl:w-2/3 w-[75%]" src={sponsors} alt="Sponsors" />
     </div>
   );
 };

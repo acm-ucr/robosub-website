@@ -12,11 +12,11 @@ const PageTitle = () => {
           className="w-screen top-[42%] absolute"
         />
       </div>
-      <div className="flex flex-col left-[9%] absolute top-[35%] ">
-        <p className="text-4xl font-sans font-semibold text-robosub-yellow">
+      <div className="flex flex-col 2xl:left-[9%] 2xl:top-[35%] left-[6%] top-[30%] absolute ">
+        <p className="2xl: text-4xl font-sans font-semibold text-[40px] text-robosub-yellow mb-3">
           Support Us
         </p>
-        <p className="text-4xl italic font-thin">
+        <p className="2xl: text-4xl italic font-thin text-[50px]">
           Keep Our Aquatic Legacy Flowing!
         </p>
       </div>
