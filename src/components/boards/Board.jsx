@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Board = ({ image, name, role }) => {
   return (
-    <div className="font-sans 2xl:w-60 w-44 flex flex-col items-center">
+    <div className="font-sans 2xl:w-60 md:w-44 w-36 flex flex-col items-center">
       <div
         className="bg-gradient-to-br from-robosub-blue via-robosub-blue to-robosub-light-blue 
                       rounded-full p-1 aspect-square w-full"
@@ -13,11 +13,11 @@ const Board = ({ image, name, role }) => {
           alt="picture of member"
         />
       </div>
-      <p className="text-robosub-yellow 2xl:text-3xl text-2xl font-bold text-center">
+      <p className="text-robosub-yellow 2xl:text-3xl md:text-2xl text-xl font-bold text-center">
         {" "}
         {name}{" "}
       </p>
-      <p className="text-robosub-light-gray font-semibold 2xl:text-lg text-sm">
+      <p className="text-robosub-light-gray font-semibold 2xl:text-lg md:text-sm text-xs text-center">
         {role}
       </p>
     </div>

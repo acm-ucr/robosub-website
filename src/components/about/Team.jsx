@@ -1,7 +1,7 @@
 const Team = ({ icon, title, text, list }) => {
   return (
     <div className="w-9/12 md:w-7/12 flex flex-col justify-items-start font-sans text-robosub-light-gray space-y-2 2xl:space-y-6 md:space-y-4">
-      <div className="2xl:text-8xl text-4xl md:text-6xl font-bold bg-clip-text">
+      <div className="2xl:text-[80px] text-4xl md:text-6xl font-bold bg-clip-text">
         <svg width="0" height="0">
           <linearGradient
             id="gray-gradient"
