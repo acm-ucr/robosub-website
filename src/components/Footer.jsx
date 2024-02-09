@@ -43,7 +43,7 @@ const Footer = () => {
                 href={item.link}
                 target="_blank"
                 key={index}
-                className="hover:text-robosub-yellow hover:text-[45px] duration-300"
+                className="hover:text-robosub-yellow md:hover:text-[45px] 2xl:hover:text-[57px] duration-300"
               >
                 {item.icon}
               </Link>
