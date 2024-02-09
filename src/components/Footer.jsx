@@ -6,7 +6,7 @@ import { links } from "../data/footerLinks";
 
 const Footer = () => {
   return (
-    <div className="w-full px-10 py-3 md:py-0 bg-white md:h-[33vh] md:flex justify-between font-sans relative">
+    <div className="w-full px-3 md:px-10 py-3 md:py-0 bg-white md:h-[33vh] md:flex justify-between font-sans relative">
       <Image
         alt="img1"
         src={img1}
@@ -19,9 +19,9 @@ const Footer = () => {
         <Image
           alt="logo"
           src={logo}
-          className=" md:w-auto w-14 mr-2 md:mr-0 object-contain"
+          className=" md:w-auto w-12 mr-2 md:mr-0 object-contain"
         />
-        <div className="text-robosub-dark-gray text-3xl 2xl:text-4xl ml-2">
+        <div className="text-robosub-dark-gray md:text-3xl 2xl:text-4xl ml-2">
           <p className="font-medium">ROBOSUB</p>
           <p>UCR</p>
         </div>

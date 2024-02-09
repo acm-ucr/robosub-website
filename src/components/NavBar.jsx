@@ -8,7 +8,7 @@ import Image from "next/image";
 const NavBar = () => {
   const [selected, setSelected] = useState("");
   return (
-    <div className="md:px-7 fixed z-30 h-8 md:h-[10vh] bg-robosub-black bg-opacity-60 w-screen flex md:justify-between items-center backdrop-blur text-[10px] md:text-lg 2xl:text-xl pl-2">
+    <div className="md:px-7 fixed z-30 h-8 md:h-[10vh] bg-robosub-black bg-opacity-60 w-screen flex md:justify-between items-center backdrop-blur text-[10px] md:text-lg 2xl:text-2xl pl-2">
       <Link
         onClick={() => {
           setSelected("");
