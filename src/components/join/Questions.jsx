@@ -6,13 +6,13 @@ const Questions = () => {
       {questions.map((item, index) => (
         <div key={index} className="flex ml-[7%] justify-between pb-[4%]">
           <div
-            className=" border-l-robosub-blue w-1/4 border-l-8 pl-[4%] font-bold"
+            className=" border-l-robosub-blue w-1/4 border-l-8 2xl:border-l-[12px] pl-[4%] font-bold 2xl:text-2xl"
             key={index}
           >
             {item.question}
           </div>
           <div
-            className="w-2/3 md:mr-[7%] mr-[1%] md:text-sm text-xs"
+            className="w-2/3 md:mr-[7%] mr-[1%] md:text-sm text-xs 2xl:text-xl"
             key={index}
           >
             {item.answer}
