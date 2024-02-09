@@ -9,7 +9,7 @@ const PageTitle = ({ image, title, text }) => {
         alt="Background image 2"
         className="w-screen top-[43%] absolute"
       />
-      <div className="flex flex-col left-[15%] absolute top-[30%] md:top-[40%] md:text-5xl text-xl font-sans font-bold">
+      <div className="flex flex-col left-[15%] absolute top-[30%] md:top-[40%] 2xl:text-6xl md:text-5xl text-xl font-sans font-bold">
         <p className="text-robosub-yellow">{title}</p>
         <p>{text}</p>
       </div>
