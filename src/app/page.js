@@ -14,7 +14,7 @@ const Home = () => {
       <InfoBox />
       <Subtitle title="Join the Experience" text="Open to all UCR students!" />
       <JoinTeams />
-      <Image src={imagebar} alt="image bar" />
+      <Image src={imagebar} alt="image bar" className="w-full" />
       <Subtitle title="Links" text="Get Involved" />
       <JoinIcons />
       <Support />

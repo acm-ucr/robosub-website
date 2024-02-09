@@ -18,7 +18,7 @@ const Boards = () => {
         />
       </div>
       <Subtitle title="Current Team" text="Meet Our Executive Board" />
-      <div className="pt-5 md:pt-0 grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-10">
+      <div className="pt-5 md:pt-0 grid grid-cols-1 2xl:pt-6 md:grid-cols-4 gap-5 md:gap-10">
         {boards.map((item, index) => (
           <Board
             key={index}
@@ -29,7 +29,7 @@ const Boards = () => {
         ))}
       </div>
       <Subtitle title="Alumni" text="Our Previous Leads" />
-      <div className="pt-5 md:pt-0 grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-10">
+      <div className="pt-5 md:pt-0 2xl:pt-6 grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-10">
         {alumni.map((item, index) => (
           <Board
             key={index}
