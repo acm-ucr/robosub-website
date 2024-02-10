@@ -6,9 +6,9 @@ import SponsorTitle from "@/components/sponsors/SponsorTitle";
 
 const Sponsors = () => {
   return (
-    <div className="mb-[25%] w-full flex flex-col items-center md:min-h-screen">
+    <div className="mb-[25%] w-full flex flex-col text-[10px] md:text-lg items-center md:min-h-screen">
       <SponsorTitle />
-      <div className="md:w-1/2 mb-10 text-center">
+      <div className="w-1/2 mb-10 mt-20 text-center">
         <p>
           Through financial funding support, the Leviathan team will be able to
           build an autonomous submarine to compete in the annual Naval
@@ -38,7 +38,7 @@ const Sponsors = () => {
         title="Sponsors"
         text="A HUGE Thanks to Our Current Sponsors!"
       />
-      <Image className="w-2/3" src={sponsors} alt="Sponsors" />
+      <Image className="md:w-2/3" src={sponsors} alt="Sponsors" />
     </div>
   );
 };
