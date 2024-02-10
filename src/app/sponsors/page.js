@@ -8,7 +8,7 @@ const Sponsors = () => {
   return (
     <div className="mb-[25%] w-full flex flex-col items-center min-h-screen">
       <SponsorTitle />
-      <div className="w-1/2 mb-10 text-center">
+      <div className="w-1/2 mb-10 text-center 2xl:text-2xl">
         <p>
           Through financial funding support, the Leviathan team will be able to
           build an autonomous submarine to compete in the annual Naval
