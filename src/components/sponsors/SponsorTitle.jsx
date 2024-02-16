@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image2 from "../../public/blue-wave.svg";
-import image1 from "../../public/sponsor.png";
+import image2 from "@/public/blue-wave.svg";
+import image1 from "@/public/sponsor.webp";
 const PageTitle = () => {
   return (
     <div>
@@ -13,10 +13,10 @@ const PageTitle = () => {
         />
       </div>
       <div className="flex flex-col left-[9%] absolute md:top-[35%] top-[10%] ">
-        <p className="md:text-4xl font-sans font-semibold text-robosub-yellow">
+        <p className="md:text-4xl 2xl:text-[40px] font-sans font-semibold text-robosub-yellow">
           Support Us
         </p>
-        <p className="md:text-4xl italic font-thin">
+        <p className="md:text-4xl 2xl:text-[50px] italic font-thin">
           Keep Our Aquatic Legacy Flowing!
         </p>
       </div>

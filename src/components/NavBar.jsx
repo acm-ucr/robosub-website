@@ -1,5 +1,5 @@
 "use client";
-import logo from "../public/logo.png";
+import logo from "@/public/logo.webp";
 import React, { useState } from "react";
 import Link from "next/link";
 import { items } from "@/data/navigation";
@@ -8,12 +8,12 @@ import Image from "next/image";
 const NavBar = () => {
   const [selected, setSelected] = useState("");
   return (
-    <div className="md:px-7 fixed z-30 h-8 md:h-[10vh] bg-robosub-black bg-opacity-60 w-screen flex md:justify-between items-center backdrop-blur text-[10px] md:text-lg pl-2">
+    <div className="md:px-7 fixed z-30 h-8 md:h-[10vh] bg-robosub-black bg-opacity-60 w-screen flex md:justify-between items-center backdrop-blur text-[10px] md:text-lg 2xl:text-2xl pl-2">
       <Link
         onClick={() => {
           setSelected("");
         }}
-        className="hover:opacity-60 duration-300 w-1/5"
+        className="hover:opacity-60 duration-300 w-1/5 2xl:w-1/4"
         href="/"
       >
         <Image alt="logo" src={logo} />

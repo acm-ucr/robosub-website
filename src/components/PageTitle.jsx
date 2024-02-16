@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image2 from "../public/blue-wave.svg";
+import image2 from "@/public/blue-wave.svg";
 const PageTitle = ({ image, title, text }) => {
   return (
     <div className="w-full relative -z-10 -mb-10">
@@ -9,7 +9,7 @@ const PageTitle = ({ image, title, text }) => {
         alt="Background image 2"
         className="w-screen top-[43%] absolute"
       />
-      <div className="flex flex-col left-[15%] absolute top-[30%] md:top-[40%] md:text-5xl font-sans font-bold">
+      <div className="flex flex-col left-[15%] absolute top-[30%] md:top-[40%] 2xl:text-6xl md:text-5xl text-xl font-sans font-bold">
         <p className="text-robosub-yellow">{title}</p>
         <p>{text}</p>
       </div>

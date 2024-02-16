@@ -1,12 +1,12 @@
-import logo from "../public/team-logo.png";
-import img1 from "../public/footer-blue-wave.svg";
+import logo from "@/public/team-logo.webp";
+import img1 from "@/public/footer-blue-wave.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { links } from "../data/footerLinks";
 
 const Footer = () => {
   return (
-    <div className="w-full px-10 py-3 md:py-0 bg-white md:h-[33vh] md:flex justify-between font-sans relative">
+    <div className="w-full px-3 md:px-10 py-3 md:py-0 bg-white md:h-[33vh] md:flex justify-between font-sans relative">
       <Image
         alt="img1"
         src={img1}
@@ -19,31 +19,31 @@ const Footer = () => {
         <Image
           alt="logo"
           src={logo}
-          className="md:scale-100 scale-150 mr-2 md:mr-0 object-contain"
+          className=" md:w-auto w-12 mr-2 md:mr-0 object-contain"
         />
-        <div className="text-robosub-dark-gray text-3xl ml-2">
+        <div className="text-robosub-dark-gray md:text-3xl 2xl:text-4xl ml-2">
           <p className="font-medium">ROBOSUB</p>
           <p>UCR</p>
         </div>
       </Link>
-      <div className="flex flex-col justify-center items-center text-robosub-black text-sm md:text-xl my-5 md:my-0">
+      <div className="flex flex-col justify-center items-center text-robosub-black text-sm md:text-xl 2xl:text-2xl my-5 md:my-0">
         <p className="font-bold">University of California, Riverside</p>
         <p className="font-bold">Autonomous Underwater Vechicle</p>
         <p>Winston Chung Hall, Riverside, CA</p>
       </div>
       <div className="flex justify-end">
         <div className="flex items-center text-robosub-black">
-          <div className="md:text-xl flex flex-col items-end text-sm">
+          <div className="md:text-xl 2xl:text-2xl flex flex-col items-end text-sm">
             <p>Contact Us</p>
             <p className="font-bold">robosubucr@gmail.com</p>
           </div>
-          <div className="text-2xl md:text-5xl border-l-black border-l-2 pl-6 ml-7 mb-5 md:mb-0 flex flex-col items-end">
+          <div className="text-2xl md:text-5xl 2xl:text-6xl border-l-black border-l-2 pl-6 ml-7 mb-5 md:mb-0 flex flex-col items-end">
             {links.map((item, index) => (
               <Link
                 href={item.link}
                 target="_blank"
                 key={index}
-                className="hover:text-robosub-yellow hover:text-[45px] duration-300"
+                className="hover:text-robosub-yellow md:hover:text-[45px] 2xl:hover:text-[57px] duration-300"
               >
                 {item.icon}
               </Link>
