@@ -6,9 +6,9 @@ import SponsorTitle from "@/components/sponsors/SponsorTitle";
 
 const Sponsors = () => {
   return (
-    <div className="mb-[25%] w-full flex flex-col text-[10px] md:text-lg items-center md:min-h-screen">
+    <div className=" mb-[40%] md:mb-[25%] w-full flex flex-col md:text-lg items-center md:min-h-screen">
       <SponsorTitle />
-      <div className="md:w-1/2 w-2/3 mb-10 mt-20 md:mt-0 text-center 2xl:text-2xl">
+      <div className="md:w-1/2 w-2/3 md:mb-10 mt-20 md:mt-0 text-center text-[8px] md:text-base 2xl:text-2xl">
         <p>
           Through financial funding support, the Leviathan team will be able to
           build an autonomous submarine to compete in the annual Naval
@@ -19,7 +19,7 @@ const Sponsors = () => {
           maintain our tradition as the first underwater-vehicle project at UCR
           for the future generations.
         </p>
-        <p className="mt-20 mb-5">
+        <p className="mt-10 md:mt-20 md:mb-5">
           Check out our current supporters and sponsors below!
         </p>
         <p>
@@ -30,7 +30,7 @@ const Sponsors = () => {
       </div>
       <Link
         href="robosubucr@gmail.com"
-        className="text-robosub-yellow underline mt-2"
+        className="text-robosub-yellow underline mt-2 md:text-base text-[10px] 2xl:text-xl"
       >
         robosubucr@gmail.com
       </Link>

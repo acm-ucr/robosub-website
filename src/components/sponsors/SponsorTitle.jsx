@@ -12,7 +12,7 @@ const PageTitle = () => {
           className="w-screen top-[42%] absolute"
         />
       </div>
-      <div className="flex flex-col left-[9%] absolute md:top-[35%] top-[10%] ">
+      <div className="flex flex-col left-[9%] absolute md:top-[35%] top-[8%] ">
         <p className="md:text-4xl 2xl:text-[40px] font-sans font-semibold text-robosub-yellow">
           Support Us
         </p>
