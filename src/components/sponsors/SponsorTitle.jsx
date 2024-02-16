@@ -13,10 +13,10 @@ const PageTitle = () => {
         />
       </div>
       <div className="flex flex-col left-[9%] absolute top-[35%] ">
-        <p className="text-4xl font-sans font-semibold text-robosub-yellow">
+        <p className="text-4xl 2xl:text-[40px] font-sans font-semibold text-robosub-yellow">
           Support Us
         </p>
-        <p className="text-4xl italic font-thin">
+        <p className="text-4xl 2xl:text-[50px] italic font-thin">
           Keep Our Aquatic Legacy Flowing!
         </p>
       </div>
