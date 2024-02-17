@@ -1,19 +1,19 @@
 import { useRef, useState, useEffect } from "react";
 
-const useView = (offset = 0) => {
+const useView = () => {
   const [inView, setInView] = useState(true);
   const ref = useRef(null);
-  const onScroll = () => {
-    if (!ref.current) {
-      setInView(false);
-      return;
-    }
-    setInView(
-      ref.current.getBoundingClientRect().top + offset <= window.innerHeight &&
-        ref.current.getBoundingClientRect().bottom - offset >= 0
-    );
-  };
   useEffect(() => {
+    const onScroll = () => {
+      if (!ref.current) {
+        setInView(false);
+        return;
+      }
+      setInView(
+        ref.current.getBoundingClientRect().top <= window.innerHeight &&
+          ref.current.getBoundingClientRect().bottom >= 0
+      );
+    };
     document.addEventListener("scroll", onScroll, true);
     return () => document.removeEventListener("scroll", onScroll, true);
   }, []);
