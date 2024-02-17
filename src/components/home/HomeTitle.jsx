@@ -6,7 +6,7 @@ import { SlArrowDown } from "react-icons/sl";
 
 const HomeTitle = () => {
   return (
-    <div className="w-screen relative md:-translate-y-5 -translate-y-2 -z-10  ">
+    <div className="w-screen relative md:-translate-y-5 -translate-y-2 -z-10 animate-fade-right animate-once animate-delay-100">
       <Image src={image1} alt="Background image 1" className="w-screen" />
       <Image
         src={image2}

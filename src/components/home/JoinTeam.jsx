@@ -1,9 +1,17 @@
+"use client";
 import React from "react";
 import Button from "../Button";
+import useView from "../useView";
 
-const JoinTeam = ({ icon, title, text }) => {
+const JoinTeam = ({ icon, title, text, animation }) => {
+  const [inView, ref] = useView();
   return (
-    <div className="w-[280px] md:w-[400px] 2xl:w-[530px] items-center flex md:mx-10 my-5 mx-5">
+    <div
+      ref={ref}
+      className={`w-[280px] md:w-[400px] 2xl:w-[530px] items-center flex md:mx-10 my-5 mx-5 ${
+        inView && "animate-fade-right"
+      } ${inView && animation}`}
+    >
       <div className="font-sans text-5xl md:text-[84px] 2xl:text-8xl aspect-square w-2/5 md:w-[45%] rounded-full flex justify-center items-center bg-gradient-to-br to-black from-robosub-dark-gray">
         {icon}
       </div>
