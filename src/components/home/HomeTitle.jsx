@@ -1,25 +1,13 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 import image1 from "@/public/home.webp";
 import image2 from "@/public/blue-wave.svg";
 import { SlArrowDown } from "react-icons/sl";
-import useView from "../useView";
 
 const HomeTitle = () => {
-  const [inView, ref] = useView();
   return (
-    <div
-      className={`w-screen relative md:-translate-y-5 -translate-y-2 -z-10 ${
-        inView && "animate-fade-right animate-once animate-delay-100"
-      }`}
-    >
-      <Image
-        ref={ref}
-        src={image1}
-        alt="Background image 1"
-        className="w-screen"
-      />
+    <div className="w-screen relative md:-translate-y-5 -translate-y-2 -z-10 animate-fade-right animate-once animate-delay-100">
+      <Image src={image1} alt="Background image 1" className="w-screen" />
       <Image
         src={image2}
         alt="Background image 2"
