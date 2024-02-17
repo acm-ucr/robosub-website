@@ -10,6 +10,7 @@ const JoinTeams = () => {
           icon={item.icon}
           title={item.title}
           text={item.text}
+          animation={item.animation}
         />
       ))}
     </div>
