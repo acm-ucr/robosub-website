@@ -2,20 +2,18 @@
 import Image from "next/image";
 import useView from "../useView";
 
-const Board = ({ image, name, role, animation }) => {
+const Board = ({ image, name, role }) => {
   const [inView, ref] = useView();
   return (
     <div
       ref={ref}
       className={`font-sans 2xl:w-60 md:w-44 w-36 flex flex-col items-center ${
-        inView && "animate-fade"
-      } ${inView && animation}`}
+        inView && "animate-fade"}`}
     >
       <div
         ref={ref}
         className={`bg-gradient-to-br from-robosub-blue via-robosub-blue to-robosub-light-blue rounded-full p-1 aspect-square w-full ${
-          inView && "animate-fade-down"
-        } ${inView && animation}`}
+          inView && "animate-fade-down"}`}
       >
         <Image
           className="rounded-full object-cover aspect-square w-full"
