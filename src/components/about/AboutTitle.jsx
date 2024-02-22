@@ -1,10 +1,11 @@
+import React from "react";
 import Image from "next/image";
 import image1 from "@/public/about.webp";
 import image2 from "@/public/yellow-wave.svg";
 
 const AboutTitle = () => {
   return (
-    <div className="w-screen relative translate-y-0 md:-translate-y-5 -z-10">
+    <div className="w-screen relative translate-y-0 md:-translate-y-5 -z-10 animate-fade-down animate-once animate-delay-200">
       <Image src={image1} alt="Background image 1" className="w-screen" />
       <Image
         src={image2}
