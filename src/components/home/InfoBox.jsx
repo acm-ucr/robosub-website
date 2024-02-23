@@ -6,7 +6,7 @@ import Button from "../../components/Button";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import useView from "../useView";
 
-const InfoBox = ({ animation }) => {
+const InfoBox = () => {
   const [inView, ref] = useView();
   return (
     <div className="flex flex-col items-center w-[70%]">
@@ -16,7 +16,7 @@ const InfoBox = ({ animation }) => {
             ref={ref}
             className={`flex items-center mb-6 md:mb-[12%] ${
               inView && "animate-flip-down animate-ease-out"
-            } ${inView && animation}`}
+            } ${inView}`}
           >
             <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl 2xl:text-5xl" />
             <p className="font-bold text-xl md:text-[35px] 2xl:text-5xl ">
@@ -27,7 +27,7 @@ const InfoBox = ({ animation }) => {
             ref={ref}
             className={`${
               inView && "animate-fade-right animate-delay-[400ms]"
-            } ${inView && animation}`}
+            } ${inView}`}
           >
             <div className="mb-6 md:mb-[10%] ">
               <p className="font-sans font-light md:text-[23px] text-[13px] 2xl:text-3xl w-[95%]">
@@ -54,7 +54,7 @@ const InfoBox = ({ animation }) => {
             ref={ref}
             className={`flex items-center mb-6 md:mb-[12%] ${
               inView && "animate-flip-down animate-ease-out"
-            } ${inView && animation}`}
+            } ${inView}`}
           >
             <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl 2xl:text-5xl" />
             <p className="font-bold text-xl md:text-[35px] 2xl:text-5xl">
@@ -65,7 +65,7 @@ const InfoBox = ({ animation }) => {
             ref={ref}
             className={` flex flex-col items-end mb-6 ${
               inView && "animate-fade-left animate-delay-[400ms]"
-            } ${inView && animation}`}
+            } ${inView}`}
           >
             <div className="flex flex-col items-end mb-6 md:mb-[10%] 2xl:text-4xl">
               <p className="font-sans font-light md:text-[23px] text-[13px] 2xl:text-3xl w-[95%] text-end">
