@@ -10,6 +10,7 @@ const Quotes = () => {
             key={index}
             quote={item.quote}
             person={item.person}
+            animation={item.animation}
           />
         ))}
       </div>
@@ -20,6 +21,7 @@ const Quotes = () => {
             key={index}
             quote={item.quote}
             person={item.person}
+            animation={item.animation}
           />
         ))}
       </div>
