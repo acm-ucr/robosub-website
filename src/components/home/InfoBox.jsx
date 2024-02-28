@@ -32,8 +32,8 @@ const InfoBox = () => {
             <div className="mb-6 md:mb-[10%] ">
               <p className="font-sans font-light md:text-[23px] text-[13px] 2xl:text-3xl w-[95%]">
                 We are University of California, Riverside&apos;s competitive
-                autonomous underwater vehicle project, competing
-                internationally in Robonation&apos;s Robosub Competition.
+                autonomous underwater vehicle project, competing internationally
+                in Robonation&apos;s Robosub Competition.
               </p>
             </div>
             <Button link="/about" text="LEARN MORE" />
@@ -70,8 +70,8 @@ const InfoBox = () => {
             <div className="flex flex-col items-end mb-6 md:mb-[10%] 2xl:text-4xl">
               <p className="font-sans font-light md:text-[23px] text-[13px] 2xl:text-3xl w-[95%] text-end">
                 Leviathan features five degrees of motion and is designed for
-                control efficiency and stability. We are currently in the
-                the construction phase of the project and are excited to show our
+                control efficiency and stability. We are currently in the the
+                construction phase of the project and are excited to show our
                 results.
               </p>
             </div>
