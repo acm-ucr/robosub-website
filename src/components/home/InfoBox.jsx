@@ -16,7 +16,7 @@ const InfoBox = () => {
             ref={ref}
             className={`flex items-center mb-6 md:mb-[12%] ${
               inView && "animate-flip-down animate-ease-out"
-            } ${inView}`}
+            }`}
           >
             <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl 2xl:text-5xl" />
             <p className="font-bold text-xl md:text-[35px] 2xl:text-5xl ">
@@ -27,12 +27,12 @@ const InfoBox = () => {
             ref={ref}
             className={`${
               inView && "animate-fade-right animate-delay-[400ms]"
-            } ${inView}`}
+            }`}
           >
             <div className="mb-6 md:mb-[10%] ">
               <p className="font-sans font-light md:text-[23px] text-[13px] 2xl:text-3xl w-[95%]">
                 We are University of California, Riverside&apos;s competitive
-                autonomoous underwater vehicle project, competing
+                autonomous underwater vehicle project, competing
                 internationally in Robonation&apos;s Robosub Competition.
               </p>
             </div>
@@ -54,7 +54,7 @@ const InfoBox = () => {
             ref={ref}
             className={`flex items-center mb-6 md:mb-[12%] ${
               inView && "animate-flip-down animate-ease-out"
-            } ${inView}`}
+            }`}
           >
             <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl 2xl:text-5xl" />
             <p className="font-bold text-xl md:text-[35px] 2xl:text-5xl">
@@ -65,13 +65,13 @@ const InfoBox = () => {
             ref={ref}
             className={` flex flex-col items-end mb-6 ${
               inView && "animate-fade-left animate-delay-[400ms]"
-            } ${inView}`}
+            }`}
           >
             <div className="flex flex-col items-end mb-6 md:mb-[10%] 2xl:text-4xl">
               <p className="font-sans font-light md:text-[23px] text-[13px] 2xl:text-3xl w-[95%] text-end">
-                Leviathan features five degrees of motion, and is designed for
+                Leviathan features five degrees of motion and is designed for
                 control efficiency and stability. We are currently in the
-                construction phase of the project and are excited to show our
+                the construction phase of the project and are excited to show our
                 results.
               </p>
             </div>
