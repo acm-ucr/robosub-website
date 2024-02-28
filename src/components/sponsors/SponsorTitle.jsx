@@ -4,7 +4,7 @@ import image1 from "@/public/sponsor.webp";
 const PageTitle = () => {
   return (
     <div>
-      <div className="w-full relative -z-10 -mb-14">
+      <div className="w-full relative -z-10 -mb-14 animate-fade-right animate-once animate-delay-300">
         <Image src={image1} alt="Background image 1" className="w-screen" />
         <Image
           src={image2}
@@ -12,7 +12,7 @@ const PageTitle = () => {
           className="w-screen top-[42%] absolute"
         />
       </div>
-      <div className="flex flex-col left-[9%] absolute md:top-[35%] top-[8%] ">
+      <div className="flex flex-col left-[9%] absolute md:top-[35%] top-[8%]">
         <p className="md:text-4xl 2xl:text-[40px] font-sans font-semibold text-robosub-yellow">
           Support Us
         </p>
