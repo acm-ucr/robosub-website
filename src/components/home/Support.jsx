@@ -1,7 +1,16 @@
+"use client";
 import Button from "../Button";
+import useView from "../useView";
+
 const Support = () => {
+  const [inView, ref] = useView();
   return (
-    <div className=" flex flex-col items-center w-full mt-28">
+    <div
+      ref={ref}
+      className={` flex flex-col items-center w-full mt-28 ${
+        inView && "animate-fade-down animate-delay-470 animate-ease-linear"
+      } `}
+    >
       <p className=" text-2xl md:text-4xl 2xl:text-5xl mb-4 2xl:mb-6 text-center text-white font-semibold">
         SUPPORT UCR ROBOSUB!
       </p>

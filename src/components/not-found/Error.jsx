@@ -20,7 +20,11 @@ const Error = () => {
           <Button link="." text="BACK TO HOME" />
         </div>
         <div className="object-contain w-[50%]">
-          <Image src={image1} alt="Submarine graphic" />
+          <Image
+            src={image1}
+            alt="Submarine graphic"
+            className=" animate-wiggle animate-infinite animate-duration-[3000ms]"
+          />
         </div>
       </div>
     </div>

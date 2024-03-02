@@ -1,7 +1,15 @@
+"use client";
+import useView from "../useView";
+
 const Team = ({ icon, title, text, list }) => {
+  const [inView, ref] = useView();
   return (
-    <div className="w-9/12 md:w-7/12 flex flex-col justify-items-start font-sans text-robosub-light-gray space-y-2 2xl:space-y-6 md:space-y-4">
-      <div className="2xl:text-[80px] text-4xl md:text-6xl font-bold bg-clip-text">
+    <div
+      className={`w-9/12 md:w-7/12 flex flex-col justify-items-start font-sans text-robosub-light-gray space-y-2 2xl:space-y-6 md:space-y-4`}
+    >
+      <div
+        className={`2xl:text-[80px] text-4xl md:text-6xl font-bold bg-clip-text`}
+      >
         <svg width="0" height="0">
           <linearGradient
             id="gray-gradient"
@@ -16,13 +24,24 @@ const Team = ({ icon, title, text, list }) => {
         </svg>
         {icon}
       </div>
-      <p className="text-xl 2xl:text-4xl md:text-3xl text-robosub-yellow font-semibold">
+      <p
+        ref={ref}
+        className={`text-xl 2xl:text-4xl md:text-3xl text-robosub-yellow font-semibold`}
+      >
         {title}
       </p>
-      <p className="leading-5 text-xs 2xl:text-2xl md:text-base font-light">
+      <p
+        className={`leading-5 text-xs 2xl:text-2xl md:text-base font-light ${
+          inView && "animate-fade-up animate-delay-300 animate-ease-in"
+        }`}
+      >
         {text}
       </p>
-      <div className="font-semibold tracking-tight">
+      <div
+        className={`font-semibold tracking-tight ${
+          inView && "animate-fade-up animate-delay-300 animate-ease-in"
+        }`}
+      >
         {list.map((item, index) => (
           <div
             className="flex items-center text-xs 2xl:text-xl md:text-sm"
