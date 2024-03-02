@@ -10,12 +10,14 @@ const InfoBox = () => {
   const [inView, ref] = useView();
   return (
     <div className="flex flex-col items-center w-[70%]">
-      <div className="flex flex-col md:flex-row md:justify-between md:mb-[7%] mb-[50%] 2xl:w-[90%]">
+      <div
+        ref={ref}
+        className="flex flex-col md:flex-row md:justify-between md:mb-[7%] mb-[50%] 2xl:w-[90%]"
+      >
         <div className="flex w-full mb-6 md:mb-0 md:w-[55%] flex-col ">
           <div
-            ref={ref}
             className={`flex items-center mb-6 md:mb-[12%] ${
-              inView && "animate-flip-down animate-ease-out"
+              inView && "animate-flip-down animate-ease-in-out"
             }`}
           >
             <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl 2xl:text-5xl" />
@@ -24,9 +26,9 @@ const InfoBox = () => {
             </p>
           </div>
           <div
-            ref={ref}
             className={`${
-              inView && "animate-fade-right animate-delay-[400ms]"
+              inView &&
+              "animate-fade-right animate-delay-[400ms] animate-ease-in-out"
             }`}
           >
             <div className="mb-6 md:mb-[10%] ">
@@ -51,9 +53,8 @@ const InfoBox = () => {
 
         <div className="flex flex-col items-end w-full md:w-[55%]">
           <div
-            ref={ref}
             className={`flex items-center mb-6 md:mb-[12%] ${
-              inView && "animate-flip-down animate-ease-out"
+              inView && "animate-flip-down animate-ease-out animate-delay-1000"
             }`}
           >
             <AiOutlineDoubleRight className=" text-robosub-blue text-2xl md:text-4xl 2xl:text-5xl" />
@@ -62,9 +63,8 @@ const InfoBox = () => {
             </p>
           </div>
           <div
-            ref={ref}
             className={` flex flex-col items-end mb-6 ${
-              inView && "animate-fade-left animate-delay-[400ms]"
+              inView && "animate-fade-left animate-delay-1000"
             }`}
           >
             <div className="flex flex-col items-end mb-6 md:mb-[10%] 2xl:text-4xl">

@@ -32,15 +32,15 @@ const Team = ({ icon, title, text, list }) => {
       </p>
       <p
         className={`leading-5 text-xs 2xl:text-2xl md:text-base font-light ${
-          inView && "animate-fade-up"
-        } ${inView && "animate-delay-100"}`}
+          inView && "animate-fade-up animate-delay-300 animate-ease-in"
+        }`}
       >
         {text}
       </p>
       <div
         className={`font-semibold tracking-tight ${
-          inView && "animate-fade-up"
-        } ${inView && "animate-delay-100"}`}
+          inView && "animate-fade-up animate-delay-300 animate-ease-in"
+        }`}
       >
         {list.map((item, index) => (
           <div
